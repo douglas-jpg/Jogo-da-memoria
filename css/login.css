@@ -1,0 +1,53 @@
+
+body{
+    background-image: url(../images/bg_login.png);
+    background-position: center center;
+}
+.login{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.cabecario{
+    font-size: 10px;
+    color: var(--white);
+}
+.cabecario img{
+    width: 300px;
+}
+
+.nome_login{
+    border: 2px solid var(--black);
+    border-radius: 5px;
+    font-size: 1em;
+    outline: none;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin: 20px;
+    height: 30px;
+    background-color: var(--white);
+
+}
+.botao_jogar{
+    width: 100%;
+    max-width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid var(--gold);
+    padding: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.botao_jogar:disabled{
+    background-color: var(--black);
+    border: 2px solid var(--black);
+    color: var(--white);
+    cursor: auto;
+}
