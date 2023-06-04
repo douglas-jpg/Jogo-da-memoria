@@ -38,6 +38,7 @@ header{
     aspect-ratio: 3/4;
     transition: all 700ms ease;
     transform-style: preserve-3d;
+    border-radius: 5px;
     background-color: gray;
     
 }

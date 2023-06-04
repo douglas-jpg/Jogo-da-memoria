@@ -1,0 +1,29 @@
+{
+    "jogador": [
+        {
+            "nome": "primeiro",
+            "posicao": 1,
+            "tempo": 30
+        },
+        {
+            "nome": "segundo",
+            "posicao": 2,
+            "tempo": 40
+        },
+        {
+            "nome": "terceiro",
+            "posicao": 3,
+            "tempo": 50
+        },
+        {
+            "nome": "quarto",
+            "posicao": 4,
+            "tempo": 60
+        },
+        {
+            "nome": "quinto",
+            "posicao": 5,
+            "tempo": 70
+        }
+    ]
+}

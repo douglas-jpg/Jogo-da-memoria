@@ -1,8 +1,12 @@
 
 body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-image: url(../images/bg_login.png);
     background-position: center center;
 }
+
 .login{
     display: flex;
     text-align: center;
@@ -50,4 +54,19 @@ body{
     border: 2px solid var(--black);
     color: var(--white);
     cursor: auto;
+}
+
+.voltar{
+    position: absolute;
+    margin-top: 470px;
+    width: 100%;
+    max-width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid var(--gold);
+    padding: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--blue);
 }

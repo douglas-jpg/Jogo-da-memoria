@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-image: url('../images/Runeterra\ _map.png');
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    min-height: 400px;
+
+}
+table{
+    color: #e5e1e1;
+    border: 2px solid #BE5A04;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    background-color: rgba(0, 26, 108, 0.5);
+
+}
+thead{
+    height: 40px;
+}
+
+.tabela_jogador{
+    padding: 0 0 0 10px;
+    text-align: start;
+}
+
+.tabela_posicao{
+    padding: 0 0 0 8px;
+    width: 30px;
+}
+
+.tabela_tempo{
+    padding: 0 10px;
+    text-align: end;
+}
+.menu{
+    cursor: pointer;
+    color: #e5e1e1;
+    border: 5px solid #BE5A04;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: #001A6C;
+}
+
