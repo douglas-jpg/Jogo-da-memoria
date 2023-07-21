@@ -10,7 +10,7 @@
 
 ## [Acesse aqui](https://douglas-jpg.github.io/Jogo-da-memoria/)
 
-<img src="images/demo.pnj" alt="Exemplo imagem">
+<img src="demo.png" alt="Exemplo imagem">
 
 > Um simples jogo da memoria ultilizando HTML, CSS e JavaScript no tema de league of legendes.
 
